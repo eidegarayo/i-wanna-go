@@ -1,0 +1,18 @@
+{
+  "index": {
+    "title": "Hi there!",
+    "to-second-page": "To second page",
+    "to-client-page": "To client page"
+  },
+  "second-page": {
+    "title": "Hi from second page!",
+    "back-to-home": "Back to home"
+  },
+  "client-page": {
+    "title": "Client page",
+    "counter_one": "one selected",
+    "counter_other": "{{count}} selected",
+    "counter_zero": "none selected",
+    "back-to-home": "Back to home"
+  }
+}

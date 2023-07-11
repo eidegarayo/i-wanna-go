@@ -19,10 +19,11 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        uses: npm i
+        run: npm ci
 
       - name: Deploy
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        run: npx sst deploy --stage prod
+        run: |
+          npx sst deploy --stage prod

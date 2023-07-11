@@ -1,0 +1,18 @@
+{
+  "index": {
+    "title": "¡Hola!",
+    "to-second-page": "A la segunda página",
+    "to-client-page": "A la página use client"
+  },
+  "second-page": {
+    "title": "¡Hola desde la segunda página!",
+    "back-to-home": "Volver al inicio"
+  },
+  "client-page": {
+    "title": "Página use client",
+    "counter_one": "seleccionado uno",
+    "counter_other": "{{count}} seleccionado",
+    "counter_zero": "nada seleccionado",
+    "back-to-home": "Volver al inicio"
+  }
+}
